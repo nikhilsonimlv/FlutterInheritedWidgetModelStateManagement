@@ -11,19 +11,3 @@ Each and every descendant in widget tree listen to an specific aspect/property o
 Important :- Inherited-widget-model is NOT a stateful widget , it has constant constructor , we wrap it inside stateful widget to make them stateful
 
 Calling MyModel.of(context, 'foo') means that context should only be rebuilt when the foo aspect of MyModel changes. If the aspect is null, then the model supports all aspects.
-
-
-
-https://medium.com/flutter-community/flutter-widget-guide-inheritedmodel-widget-in-5-mins-or-less-a2b0dd8beb43
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
